@@ -1,3 +1,6 @@
+// version 1
+// multi module design 
+
 `timescale 1ns / 1ps
 module async_FIFO #(parameter WIDTH =8,parameter DEEP =8)
                  (  input wr_clk,
